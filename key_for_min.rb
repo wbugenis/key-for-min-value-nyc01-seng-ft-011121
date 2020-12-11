@@ -7,8 +7,8 @@ def key_for_min_value(name_hash)
     nil 
   end
   
-  lowest_num
-  lowest_key
+  lowest_num = 0
+  lowest_key = ""
   
   name_hash.each_with_index do |(key, value), index|
     if index == 0
